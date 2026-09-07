@@ -1,0 +1,18 @@
+# never commit the dataset - it is ~1.2 GB and publicly available from Kaggle
+data/
+*.zip
+__MACOSX/
+.DS_Store
+
+# training artefacts
+outputs/models/*.keras
+outputs/models/*.h5
+*.ckpt
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/

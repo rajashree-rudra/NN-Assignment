@@ -1,0 +1,18 @@
+# datasets are not committed - large and publicly available
+data/
+*.zip
+__MACOSX/
+.DS_Store
+
+# trained model weights
+*.keras
+*.h5
+*.ckpt
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
