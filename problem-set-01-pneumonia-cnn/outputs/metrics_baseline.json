@@ -1,0 +1,75 @@
+{
+  "model": "baseline",
+  "class_names": [
+    "NORMAL",
+    "PNEUMONIA"
+  ],
+  "default_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.8718,
+    "precision_pneumonia": 0.8523,
+    "recall_pneumonia": 0.9615,
+    "specificity_normal": 0.7222,
+    "f1_pneumonia": 0.9036,
+    "roc_auc": 0.9424,
+    "pr_auc": 0.9577,
+    "confusion_matrix": {
+      "tn": 169,
+      "fp": 65,
+      "fn": 15,
+      "tp": 375
+    },
+    "missed_pneumonia_cases": 15
+  },
+  "best_f1": {
+    "threshold": 0.0216,
+    "accuracy": 0.7548,
+    "precision_pneumonia": 0.719,
+    "recall_pneumonia": 0.9974,
+    "specificity_normal": 0.3504,
+    "f1_pneumonia": 0.8357,
+    "roc_auc": 0.9424,
+    "pr_auc": 0.9577,
+    "confusion_matrix": {
+      "tn": 82,
+      "fp": 152,
+      "fn": 1,
+      "tp": 389
+    },
+    "missed_pneumonia_cases": 1
+  },
+  "recall_ge_0.95": {
+    "threshold": 0.2052,
+    "accuracy": 0.851,
+    "precision_pneumonia": 0.8207,
+    "recall_pneumonia": 0.9744,
+    "specificity_normal": 0.6453,
+    "f1_pneumonia": 0.891,
+    "roc_auc": 0.9424,
+    "pr_auc": 0.9577,
+    "confusion_matrix": {
+      "tn": 151,
+      "fp": 83,
+      "fn": 10,
+      "tp": 380
+    },
+    "missed_pneumonia_cases": 10
+  },
+  "original_val": {
+    "threshold": 0.0216,
+    "accuracy": 0.6875,
+    "precision_pneumonia": 0.6154,
+    "recall_pneumonia": 1.0,
+    "specificity_normal": 0.375,
+    "f1_pneumonia": 0.7619,
+    "roc_auc": 0.9531,
+    "pr_auc": 0.9659,
+    "confusion_matrix": {
+      "tn": 3,
+      "fp": 5,
+      "fn": 0,
+      "tp": 8
+    },
+    "missed_pneumonia_cases": 0
+  }
+}
